@@ -3,4 +3,7 @@
 defines a Rectangle.
 """
 class Rectangle:
+"""
+represents a rectangle.
+"""
     pass
