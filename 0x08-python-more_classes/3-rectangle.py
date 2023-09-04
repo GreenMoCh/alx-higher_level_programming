@@ -42,18 +42,18 @@ class Rectangle:
     
     def area(self):
         """Return the area of the rectangle"""
-        return (self.width * self.height)
+        return (self.__width * self.__height)
     
     def perimeter(self):
         """Return the perimeter of the rectangle"""
-        return (2 * (self.width + self.height))
+        return (2 * (self.__width + self.__height))
     
     def __str__(self):
         """Print the recc=angle"""
-        if self.width == 0 or self.height == 0:
+        if self.__width == 0 or self.__height == 0:
             return ("")
         else:
             rectangle_str = ""
-            for _ in range(self.height):
-                rectangle_str += "#" * self.width + "\n"
+            for _ in range(self.__height):
+                rectangle_str += "#" * self.__width + "\n"
             return (rectangle_str[:-1])

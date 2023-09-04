@@ -42,8 +42,8 @@ class Rectangle:
     
     def area(self):
         """Return the area of the rectangle"""
-        return (self.width * self.height)
+        return (self.__width * self.__height)
     
     def perimeter(self):
         """Return the perimeter of the rectangle"""
-        return (2 * (self.height + self.width))
+        return (2 * (self.__height + self.__width))
