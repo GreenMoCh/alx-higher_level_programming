@@ -14,4 +14,4 @@ def lookup(obj):
     Returns:
         list: list of strs representing the atributes and methods
     """
-    return [attr for attr in dir(obj) if not callable(getattr(obj, attr))]
+    return dir(obj)
