@@ -25,4 +25,4 @@ if __name__ == "__main__":
 
     print("Body response:")
     for key, value in status_info.items():
-        print(f"    - {key}: {value}")
+        print("    - {}: {}".format(key, value))
